@@ -1,0 +1,27 @@
+/* body {
+    background: #141414;
+    }
+    #hold_images {
+    display: inline-block; 
+    white-space: nowrap;
+    margin: 5px;
+    padding:10px;
+    } */
+   
+    .transition {
+        -webkit-transform: scale(1.2); 
+        -moz-transform: scale(1.2);
+        -o-transform: scale(1.2);
+        transform: scale(1.2);
+    }
+    img {
+        /* padding: 10px; */
+        margin: 10px;
+        border-color: aqua;
+        border-style: solid;
+        -webkit-transition: all .4s ease-in-out;
+        -moz-transition: all .4s ease-in-out;
+        -o-transition: all .4s ease-in-out;
+        -ms-transition: all .4s ease-in-out;
+        cursor: pointer; 
+    }
